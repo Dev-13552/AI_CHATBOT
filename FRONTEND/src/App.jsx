@@ -29,7 +29,7 @@ function App() {
     ]);
     setText("");
     try {
-      const response = await axios.post("http://localhost:3000/api/chat", {
+      const response = await axios.post("https://ai-chatbot-3q97.onrender.com/api/chat", {
         text,
         messages,
       });
