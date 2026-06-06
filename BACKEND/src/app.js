@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.static('public'))
 
 app.use(cors({
-    origin: ["http://localhost:5173", "https://ai-chatbot-3q97.onrender.com", "http://localhost:3000"],
+    origin: ["http://localhost:5173", "https://ai-chatbot-3q97.onrender.com", "http://localhost:3000", "https://ai-agent-a8if.onrender.com"],
     credentials: true
 }))
 app.use("/api/chat", chatRouter)
